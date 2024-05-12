@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.container {
+    height: 100%;
+    width: 100%;
+
+   
+}
+
+
+.cont-top {
+    /* height: 50%; */
+    width: 100%;
+   
+    padding: 20px 40px;
+    background: linear-gradient(to bottom,red, orange, red, purple, aqua);
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.top-content{
+    margin-top: 40px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+align-items:center;
+
+}
+
+.top-sec1 {
+    width: 100%;
+    /* height: 20%; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    
+}
+.top-sec1-left {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-direction: row;
+    align-items:center;
+}
+.middle-right{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+.top-sec1-middle{
+margin-right: 25px;
+}
+.top-sec1-middle ul{
+display: flex;
+list-style: none;
+align-items:center;
+justify-content: space-between;
+}
+.top-sec1-middle ul li{
+    margin-right: 15px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input-container{
+    margin-top: 20px;
+ 
+}
+.input-container input{
+padding: 10px;
+width: 300px;
+border:none;
+outline: none;
+border-radius: 12px;
+margin-right: 10px;
+} 
+.input-container button{
+    background-color: rgb(66, 66, 243);
+    border:none;
+    padding: 8px 10px;
+    font-size: 16px;
+    color:white;
+}
+.mainicon {
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+
+
+.top-sec2{
+    width: 100%;
+    /* height: 60%; */
+    /* border: 1px solid black; */
+}
+
+
+
+
+
+.cont-bottom {
+    margin: 40px 200px;
+ display: flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+.logcaption1,.logcaption2,.logcaption3{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: center;
+}
+.myicon {
+    font-size: 100px;
+    opacity: 0.5;
+}
+h3{
+    text-align: center;
+    margin-top: 15px;
+   
+}
+
+
+
+@media screen and (max-width: 600px){
+    .cont-top{
+        background: linear-gradient(to right,red, orange, red, purple, aqua);
+    }
+    .top-sec1-middle{
+        display: none;
+    }
+    .input-container{
+        display: none;
+    }
+    .cont-bottom{
+
+        margin: 40px 200px;
+        
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        justify-content: space-between;
+    } 
+    .logcaption1,.logcaption2,.logcaption3{
+        margin-bottom: 20px;
+    }
+}

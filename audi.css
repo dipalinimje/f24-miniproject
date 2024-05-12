@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+}
+.parent-cont {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://uhdwallpapers.org/uploads/cache/2839701874/silhouette-of-a-mercedes-car_600x338-mm-90.webp");
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+}
+.child1 {
+    width: 80%;
+    height: 40%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+}
+
+.mychild {
+    width: 100%;
+    height: 30%;
+    color: white;
+    text-align: right;
+    margin-right: 25px;
+    margin-top: 20px;
+    /* border: 2px solid white; */
+
+}
+.child2 {
+    width: 20%;
+    height: 20%;
+    /* border: 2px solid white; */
+    
+}
+img {
+    width: 40%;
+    height: 80%;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    /* border: 2px solid white; */
+    margin-left: 120px;
+
+    
+}

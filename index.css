@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    /* width: 100vw;
+    height: 100vh; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent-cont {
+    height: 100%;
+    width: 100%;
+    padding: 15px;
+    background-color: rgb(67, 195, 246);
+}
+.parent-child{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 15px;
+}
+.section1{
+    width: 100%;
+    /* height: 10%; */
+    text-align: center;
+    
+}
+.section2{
+    width: 100%;
+    height: 20%;
+    background-image: url("https://plus.unsplash.com/premium_photo-1679758630312-a3d601c411d8?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); 
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    margin-bottom: 7px;
+
+
+}
+.section3{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7px;
+
+    
+}
+.section3-left{
+    width: 50%;
+    height: 100%;
+    margin-right: 10px;
+    background-image: url("https://media.istockphoto.com/id/1145612951/photo/how-to-make-coffee-latte-art.webp?b=1&s=170667a&w=0&k=20&c=dy7nVDT3NU4ZM0G7IQhIfwJrZSZikGRTDtEUFWYggB8=");
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+div{
+    border: 1px solid white;
+    padding: 5px;
+    /* margin-left: 10px; */
+   
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+.section3-right{
+    width: 50%;
+    height: 100%;
+    background-image: url("https://media.istockphoto.com/id/1273378551/photo/set-of-summer-fruits-and-berries-in-wooden-serving.webp?b=1&s=170667a&w=0&k=20&c=cv5rT_iOIdqt0MuKhKTQWbV2s4Dz6X7P06gnbpE6XGs=");
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.section4{
+    width: 100%;
+    height: 20%;
+    background-image: url("https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGxhcHRvcHxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    border-radius: 10px;
+    margin-bottom: 7px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+
+    
+}
+.section5{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: row;
+    
+}
+.section5-left{
+    width: 50%;
+    height: 100%;
+    margin-right: 10px;
+    background-image: url("https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fG5hdHVyZXxlbnwwfHwwfHx8MA%3D%3D");
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.section5-right{
+    width: 50%;
+    height: 100%;
+    background-image: url("https://media.istockphoto.com/id/1304826235/photo/luxury-bathroom-interior-with-shower-toilet-mirror-and-yellow-towels.webp?b=1&s=170667a&w=0&k=20&c=NuJXo-D23u4uRnO3YprQdnIzxwZBWn9qEo9IBvbu9tU=");
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+@media screen and (max-width:600px){
+    .parent-child{
+        display: block;
+        display: flex;
+        justify-content:center;
+        flex-direction: column;
+        align-items: center;
+    }
+    .section1{
+        width: 100%;
+        height: 30%;
+    }
+    .section2{
+        width: 100%;
+        height: 30%;
+    }
+    .section3{
+        width: 100%;
+        height: 30%;
+        flex-direction: column;
+    }
+    .section4{
+        width: 100%;
+        height: 30%;
+    }
+    .section5{
+        width: 100%;
+        height: 30%;
+        flex-direction: column;
+    }
+
+    
+}

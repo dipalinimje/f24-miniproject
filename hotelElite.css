@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container{
+    /* height: 100%; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.cont-left{
+    width: 50%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1715169210373-b63f17796cb2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMXx8fGVufDB8fHx8fA%3D%3D");
+    background-size: cover;
+}
+.cont-right{
+    width: 50%;
+    /* height: 100%; */
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+
+
+}
+.cont-right-in{
+    width: 70%;
+    /* height: 80%; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.right-in-top{
+    width: 100%;
+    /* height: 20%; */
+    /* border: 1px solid black; */
+   
+    
+    
+}
+.right-in-middle{
+    width: 100%;
+    /* height: 30%; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+}
+.right-in-bottom{
+    width: 100%;
+    /* height: 40%; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-start;
+
+}
+.in-bottom-top{
+    width: 100%;
+    /* height: 50%; */
+    /* border: 1px solid black; */
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+
+}
+.top-left{
+    width: 20%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+
+}
+.top-right{
+    width: 60%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+
+}
+.in-bottom-bottom{
+    width: 100%;
+    /* height: 50%; */
+    /* border: 1px solid black; */
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+}
+.bottom-left{
+    width: 20%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+}
+.bottom-right{
+    width: 60%;
+    /* height: 100%; */
+    /* border: 1px solid black; */
+}
+@media screen and (max-width:400px){
+    .container{
+        flex-direction: column;
+    }
+    .cont-left{
+        height: 50vh;
+        width: 100%;
+    }
+    .cont-right{
+        width: 100%;
+    }
+    .cont-right-in{
+        width: 80%;
+    }
+}

@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body {
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.parent-cont {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.parent-child1 {
+    width: 100%;
+    height: 30%;
+    background-image: url("https://hubsadda.com/wp-content/uploads/2018/11/How-to-create-uan-number-1.jpg");
+    background-size: cover;
+}
+.parent-child2 {
+    width: 100%;
+    height: 70%;
+    background-color: black;
+    padding: 20px;
+}
+.child2-cont {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid white; */
+    
+}
+.child2-sec1 {
+    width: 100%;
+    height: 20%;
+    /* border: 1px solid white; */
+    margin-bottom: 5px;
+    display: flex;
+    align-items: end;
+}
+.child2-sec2 {
+    width: 100%;
+    height: 80%;
+    background-color: white;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+.section2-part1 {
+    width: 100%;
+    height: 35%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+
+.section2-part1-l {
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+img {
+    width: 60%;
+    height: 50%;
+    margin-top: 15px;
+}
+.section2-part1-r {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+
+
+
+
+.section2-part2 {
+    width: 100%;
+    height: 40%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.section2-part2-l {
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+.section2-part2-r {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+
+
+.section2-part3 {
+    width: 100%;
+    height: 25%;
+    /* border: 1px solid black; */
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: flex-start;
+}
+.section2-part3-l {
+    width: 30%;
+    height: 100%;
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+}
+.section2-part3-r {
+    width: 70%;
+    height: 100%;
+    /* border: 1px solid black; */
+}
+
+
+@media(min-width:1024px){
+    .parent-cont{
+        display: flex;
+        flex-direction: row;
+    }
+    .parent-child1{
+        width: 90%;
+        height: 100%;
+        background-image: url("https://images.unsplash.com/photo-1708200216322-9463ac285552?q=80&w=1965&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    }
+    .parent-child2{
+        height: 100%;
+    }
+    .child2-sec2{
+        height: 60%;
+    }
+}
